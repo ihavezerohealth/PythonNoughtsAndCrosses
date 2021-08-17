@@ -78,6 +78,7 @@ def scoreBoard():
 def main(amountOfTimesToPlay):
     Player1 = Player("X")
     Player2 = Player("O")
+    global Players
     Players = [Player1, Player2]
     for i in range(amountOfTimesToPlay):
         win = False
